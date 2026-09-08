@@ -4,7 +4,7 @@ import './styles.css';
 
 type Lang = 'ru' | 'kk';
 
-const WA_NUMBER = '77714548696';
+const WA_NUMBER = '77771247672';
 const waLink = (msg: string) => `https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(msg)}`;
 
 const skills = [
@@ -24,10 +24,10 @@ interface Service {
 }
 
 const services: Service[] = [
-  { id: 'landing', price: '60 000 ₸', priceNote: 'from', features: ['f_landing1', 'f_landing2', 'f_landing3'] },
-  { id: 'business', price: '100 000 ₸', priceNote: 'from', features: ['f_business1', 'f_business2', 'f_business3'] },
-  { id: 'webapp', price: '200 000 ₸', priceNote: 'from', features: ['f_webapp1', 'f_webapp2', 'f_webapp3'] },
-  { id: 'support', price: '15 000 ₸', priceNote: 'perMonth', features: ['f_support1', 'f_support2', 'f_support3'] },
+  { id: 'landing', price: '20 000 ₸', priceNote: 'from', features: ['f_landing1', 'f_landing2', 'f_landing3'] },
+  { id: 'business', price: '40 000 ₸', priceNote: 'from', features: ['f_business1', 'f_business2', 'f_business3'] },
+  { id: 'webapp', price: '60 000 ₸', priceNote: 'from', features: ['f_webapp1', 'f_webapp2', 'f_webapp3'] },
+  { id: 'support', price: '10 000 ₸', priceNote: 'perMonth', features: ['f_support1', 'f_support2', 'f_support3'] },
 ];
 
 const translations = {
