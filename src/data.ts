@@ -31,4 +31,12 @@ export const projects: Project[] = [
     url: 'https://innoverse-kz.vercel.app',
     repo: 'https://github.com/spryzzen666/innoverse-kz',
   },
+  {
+    title: 'BAHRAT · Чайхана',
+    description:
+      'Adaptive landing for a teahouse: full menu with photos (52 dishes), RU/KZ language switch and reviews from 2GIS.',
+    stack: ['HTML', 'CSS', 'JavaScript'],
+    url: 'https://baharat-cafe.vercel.app',
+    repo: 'https://github.com/spryzzen666/baharat-cafe',
+  },
 ];
