@@ -39,4 +39,12 @@ export const projects: Project[] = [
     url: 'https://baharat-cafe.vercel.app',
     repo: 'https://github.com/spryzzen666/baharat-cafe',
   },
+  {
+    title: 'KATANA · Ресторан',
+    description:
+      'Awwwards-style 3D landing for a luxury Japanese restaurant: procedural 3D katana on Three.js, animated menu, parallax gallery and table-booking with an interactive hall plan.',
+    stack: ['HTML', 'CSS', 'Three.js', 'GSAP'],
+    url: 'https://katana-restaurant.vercel.app',
+    repo: 'https://github.com/spryzzen666/katana-restaurant',
+  },
 ];

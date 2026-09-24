@@ -75,7 +75,7 @@ const translations = {
     f_support3: 'Приоритетная поддержка',
     waHero: 'Здравствуйте! Хочу заказать сайт.',
     waCard: 'Здравствуйте! Интересует услуга',
-    projectNote: 'Резюме: 4+ проекта, полный стек, работаю с бизнесом.',
+    projectNote: 'Резюме: 5+ проектов, полный стек, работаю с бизнесом.',
     project_task:
       'Full-stack планировщик задач: регистрация и вход, сессии, REST API, пароли зашифрованы scrypt, данные в SQLite.',
     project_fx:
@@ -84,6 +84,8 @@ const translations = {
       'Двуязычный (RU/ҚАЗ) лендинг школы программирования с WhatsApp-формой заявок и SEO.',
     project_baharat:
       'Адаптивный лендинг чайханы: полное меню с фото (52 блюда), переключатель RU/ҚАЗ, отзывы из 2ГИС, фирменный бордово-золотой стиль.',
+    project_katana:
+      'Лендинг люкс-ресторана в стиле Awwwards: процедурная 3D-катана на Three.js, анимированное меню, параллакс-галерея и бронирование с интерактивным планом зала.',
   },
   kk: {
     navCta: 'Тапсырыс',
@@ -129,7 +131,7 @@ const translations = {
     f_support3: 'Айрықша қолдау',
     waHero: 'Сәлеметсізбе! Сайтқа тапсырыс бергім келеді.',
     waCard: 'Сәлеметсізбе! Қызмет қызықтырады',
-    projectNote: 'Түйіндеме: 4+ жоба, толық стек, бизнеспен жұмыс істеймін.',
+    projectNote: 'Түйіндеме: 5+ жоба, толық стек, бизнеспен жұмыс істеймін.',
     project_task:
       'Толық циклді тапсырма жоспарлаушы: тіркелу және кіру, сессиялар, REST API, scrypt-пароль, SQLite дерекқоры.',
     project_fx:
@@ -138,6 +140,8 @@ const translations = {
       'Бағдарламалау мектебінің қостілді (RU/ҚАЗ) лендингі: WhatsApp-өтінім формасы және SEO.',
     project_baharat:
       'Шайхананың адаптивті лендингі: фотосуреті бар толық мәзір (52 тағам), RU/ҚАЗ тіл ауыстырғышы, 2ГИС-тен пікірлер, фирмалық бургунд-алтын стиль.',
+    project_katana:
+      'Awwwards стиліндегі люкс-мейрамхана лендингі: Three.js негізіндегі процедуралық 3D-катана, анимациялық мәзір, параллакс-галерея және интерактивті зал жоспарымен үстел брондау.',
   },
 };
 
@@ -148,6 +152,7 @@ const projectDescKeys: Record<string, keyof Dict> = {
   'FX-TERMINAL 3025': 'project_fx',
   Innoverse: 'project_innoverse',
   'BAHRAT · Чайхана': 'project_baharat',
+  'KATANA · Ресторан': 'project_katana',
 };
 
 export default function App() {
@@ -193,7 +198,7 @@ export default function App() {
           <h2 className="hero-title">{t.title}</h2>
           <p className="hero-desc" dangerouslySetInnerHTML={{ __html: t.heroDesc }} />
           <div className="hero-stats">
-            <div className="hero-stat"><strong>4+</strong><span>{t.stat1}</span></div>
+            <div className="hero-stat"><strong>5+</strong><span>{t.stat1}</span></div>
             <div className="hero-stat"><strong>Full-stack</strong><span>{t.stat2}</span></div>
             <div className="hero-stat"><strong>100%</strong><span>{t.stat3}</span></div>
           </div>
